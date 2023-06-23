@@ -47,3 +47,16 @@ input[type="text"]:hover {
 ul {
   list-style-type: none;
 }
+.id-box {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: black;
+  padding: 5px;
+  border-radius: 50px;
+}
+
+.id {
+  color: white;
+  font-weight: bold;
+}
