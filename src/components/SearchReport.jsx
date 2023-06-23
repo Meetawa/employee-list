@@ -1,12 +1,12 @@
 import React from "react";
 
-const SearchReport = ({ searchTerm, handleSearch }) => {
+const SearchReport = ({ search, handleSearch }) => {
   return (
     <div>
       <input
         type="text"
         placeholder="Search by first name"
-        value={searchTerm}
+        value={search}
         onChange={handleSearch}
       />
     </div>

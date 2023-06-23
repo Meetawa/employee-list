@@ -4,7 +4,7 @@ import UserReport from "./components/UserReport";
 
 function App() {
   const [users, setUsers] = useState([]);
-  const [searchTerm, setSearchTerm] = useState("");
+  const [search, setSearch] = useState("");
 
   const fetchData = async () => {
     try {
@@ -21,16 +21,16 @@ function App() {
   }, []);
 
   const handleSearch = (event) => {
-    setSearchTerm(event.target.value);
+    setSearch(event.target.value);
   };
 
   const filteredUsers = users.filter((user) =>
-    user.first_name.toLowerCase().includes(searchTerm.toLowerCase())
+    user.first_name.toLowerCase().includes(search.toLowerCase())
   );
 
   return (
     <div>
-      <SearchReport searchTerm={searchTerm} handleSearch={handleSearch} />
+      <SearchReport search={search} handleSearch={handleSearch} />
       <UserReport filteredUsers={filteredUsers} />
     </div>
   );
