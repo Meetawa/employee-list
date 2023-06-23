@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import SearchReport from "./components/SearchReport";
+import UserReport from "./components/UserReport";
 
 function App() {
   const [users, setUsers] = useState([]);
@@ -30,17 +31,7 @@ function App() {
   return (
     <div>
       <SearchReport searchTerm={searchTerm} handleSearch={handleSearch} />
-      <ul>
-        {filteredUsers.map((user) => (
-          <li key={user.id}>
-            <div>
-              <p>ID: {user.id}</p>
-              <p>First Name: {user.first_name}</p>
-              <img src={user.avatar} alt={user.first_name} />
-            </div>
-          </li>
-        ))}
-      </ul>
+      <UserReport filteredUsers={filteredUsers} />
     </div>
   );
 }
