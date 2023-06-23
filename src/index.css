@@ -1,0 +1,23 @@
+body {
+  background-color: rgb(61, 61, 61);
+}
+img {
+  border-radius: 10px;
+}
+input[type="text"] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 50px;
+}
+@media only screen and (max-width: 500px) {
+  input[type="text"] {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 501px) and (max-width: 1080px) {
+  input[type="text"] {
+    width: 70%;
+  }
+}
