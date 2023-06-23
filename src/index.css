@@ -34,12 +34,17 @@ input[type="text"]:hover {
   display: flex;
   flex-wrap: wrap;
 }
+.inner-outer {
+  text-align: center;
+}
 
 .inner-div {
   border: 3px solid black;
   border-radius: 30px;
   padding: 10px;
   margin: 40px;
-  text-align: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+ul {
+  list-style-type: none;
 }

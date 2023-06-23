@@ -6,7 +6,7 @@ const UserReport = ({ filteredUsers }) => {
       <ul>
         {filteredUsers.map((user) => (
           <li key={user.id}>
-            <div>
+            <div className="mid-div">
               <div className="inner-div">
                 <img src={user.avatar} alt={user.first_name} />
               </div>
