@@ -1,5 +1,7 @@
 body {
   background-color: rgb(61, 61, 61);
+  color: rgb(106, 243, 232);
+  font-weight: bold;
 }
 img {
   border-radius: 10px;
