@@ -18,4 +18,15 @@ You may also see any lint errors in the console.
 
 # `DEMO :`
 
-Link :
+## First Look :
+
+![Alt text](./public/UI_1.png)
+![Alt text](./public/UI_2.png)
+
+## Going to Search :
+
+![Alt text](./public/UI_Searching.jpg)
+
+## After Searching :
+
+![Alt text](./public/After_Searching.png)
