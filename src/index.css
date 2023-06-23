@@ -4,7 +4,7 @@ body {
   font-weight: bold;
 }
 img {
-  border-radius: 10px;
+  border-radius: 30px;
 }
 input[type="text"] {
   width: 30%;
@@ -22,4 +22,13 @@ input[type="text"] {
   input[type="text"] {
     width: 70%;
   }
+}
+
+.inner-div {
+  border: 3px solid black;
+  border-radius: 30px;
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
