@@ -11,7 +11,7 @@ const UserReport = ({ filteredUsers }) => {
                 <img src={user.avatar} alt={user.first_name} />
               </div>
               <p>
-                {user.first_name} {user.last_name}
+                {user.first_name}_{user.last_name}
               </p>
             </div>
           </li>
