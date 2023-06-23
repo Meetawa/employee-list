@@ -10,6 +10,9 @@ const UserReport = ({ filteredUsers }) => {
               <div className="inner-div">
                 <img src={user.avatar} alt={user.first_name} />
               </div>
+              <div className="id-box">
+                <span className="id">{user.id}</span>
+              </div>
               <p>
                 {user.first_name}_{user.last_name}
               </p>
