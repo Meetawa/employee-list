@@ -6,12 +6,19 @@ body {
 img {
   border-radius: 30px;
 }
+img:hover {
+  opacity: 0.5;
+}
 input[type="text"] {
   width: 30%;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
+  border: 3px solid black;
   border-radius: 50px;
+}
+input[type="text"]:hover {
+  opacity: 0.5;
 }
 @media only screen and (max-width: 600px) {
   input[type="text"] {
